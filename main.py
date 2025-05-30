@@ -17,7 +17,7 @@ if __name__ == "__main__":
     model = SimpleCNN()
 
     # Load dataset
-    data = load_images("data/happy", 0) + load_images("data/sad", 1)
+    data = load_images("data/senang", 0) + load_images("data/sedih", 1) + load_images("data/marah", 2)
     np.random.shuffle(data)
 
     # Train
